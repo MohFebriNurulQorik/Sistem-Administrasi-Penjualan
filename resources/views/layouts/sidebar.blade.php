@@ -2,12 +2,23 @@
     class="bg-white border-r border-slate-200 min-h-screen transition-all duration-300 ease-in-out hidden lg:flex flex-col sticky top-0 z-50">
 
     <!-- Logo -->
+
+    @if (Auth::user()->tenant->id == 1)
     <div class="h-20 flex items-center px-6 border-b border-slate-100">
         <a href="{{ route('dashboard') }}" class="flex items-center">
             <img x-show="sidebarOpen" src="{{ asset('images/logo-mizutech.png') }}" alt="MizuTech" class="h-10 w-auto">
             <img x-show="!sidebarOpen" src="{{ asset('images/logo-icon.png') }}" alt="Mizu" class="h-8 w-8">
         </a>
     </div>
+    @else
+    <div class="h-20 flex items-center px-6 border-b border-slate-100 bg-blue-600">
+        <a href="{{ route('dashboard') }}" class="flex items-center">
+            <img x-show="sidebarOpen" src="{{ asset('images/DwisantaraLogo2.png') }}" alt="Dwisantara" style="height: 4.5rem; width: auto;">
+            <img x-show="!sidebarOpen" src="{{ asset('images/DwisantaraLogo1 .png') }}" alt="Dwisantara" style="height: 2rem; width: auto;">
+        </a>
+    </div>
+    @endif
+      
 
     <nav class="flex-1 px-4 py-6 space-y-1 overflow-y-auto">
         <!-- Dashboard -->
