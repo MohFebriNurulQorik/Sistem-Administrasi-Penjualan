@@ -11,7 +11,7 @@
  Target Server Version : 80045 (8.0.45-cll-lve)
  File Encoding         : 65001
 
- Date: 02/06/2026 19:02:26
+ Date: 02/06/2026 19:56:21
 */
 
 SET NAMES utf8mb4;
@@ -32,24 +32,6 @@ CREATE TABLE `cache`  (
 -- ----------------------------
 -- Records of cache
 -- ----------------------------
-INSERT INTO `cache` VALUES ('sipen-cache-admin@gmail.com||2404:c0:31ac:2614:18b1:ddf4:f261:abb8', 'i:1;', 1779532694);
-INSERT INTO `cache` VALUES ('sipen-cache-admin@gmail.com||2404:c0:31ac:2614:18b1:ddf4:f261:abb8:timer', 'i:1779532694;', 1779532694);
-INSERT INTO `cache` VALUES ('sipen-cache-admin@gmail.com|1|114.10.30.223', 'i:2;', 1779515414);
-INSERT INTO `cache` VALUES ('sipen-cache-admin@gmail.com|1|114.10.30.223:timer', 'i:1779515414;', 1779515414);
-INSERT INTO `cache` VALUES ('sipen-cache-admin@gmail.com|2|114.10.30.223', 'i:1;', 1779515494);
-INSERT INTO `cache` VALUES ('sipen-cache-admin@gmail.com|2|114.10.30.223:timer', 'i:1779515494;', 1779515494);
-INSERT INTO `cache` VALUES ('sipen-cache-admin1@gmail.com|1|114.10.30.223', 'i:1;', 1779515463);
-INSERT INTO `cache` VALUES ('sipen-cache-admin1@gmail.com|1|114.10.30.223:timer', 'i:1779515463;', 1779515463);
-INSERT INTO `cache` VALUES ('sipen-cache-admin2@gmail.com||103.111.83.70', 'i:1;', 1779277090);
-INSERT INTO `cache` VALUES ('sipen-cache-admin2@gmail.com||103.111.83.70:timer', 'i:1779277090;', 1779277090);
-INSERT INTO `cache` VALUES ('sipen-cache-admin2@gmail.com||103.144.169.222', 'i:1;', 1779969133);
-INSERT INTO `cache` VALUES ('sipen-cache-admin2@gmail.com||103.144.169.222:timer', 'i:1779969133;', 1779969133);
-INSERT INTO `cache` VALUES ('sipen-cache-admin2@gmail.com||2404:c0:31ac:2614:18b1:ddf4:f261:abb8', 'i:1;', 1779532466);
-INSERT INTO `cache` VALUES ('sipen-cache-admin2@gmail.com||2404:c0:31ac:2614:18b1:ddf4:f261:abb8:timer', 'i:1779532466;', 1779532466);
-INSERT INTO `cache` VALUES ('sipen-cache-admin2@gmail.com|1|103.144.169.222', 'i:1;', 1779969170);
-INSERT INTO `cache` VALUES ('sipen-cache-admin2@gmail.com|1|103.144.169.222:timer', 'i:1779969170;', 1779969170);
-INSERT INTO `cache` VALUES ('sipen-cache-admin2@gmail.com|2|114.10.30.223', 'i:2;', 1779515472);
-INSERT INTO `cache` VALUES ('sipen-cache-admin2@gmail.com|2|114.10.30.223:timer', 'i:1779515472;', 1779515472);
 
 -- ----------------------------
 -- Table structure for cache_locks
@@ -90,14 +72,6 @@ CREATE TABLE `customers`  (
 -- ----------------------------
 -- Records of customers
 -- ----------------------------
-INSERT INTO `customers` VALUES (250, 1, 'PT Manna Berkat Solusindo', 'boby@mail.com', '519078165', 'Jakarta Barat', 'Owner', 'Boby', '2026-05-03 09:12:49', '2026-05-03 09:12:49');
-INSERT INTO `customers` VALUES (251, 1, 'PT Manna Berkat Solusindo', 'yuni@mail.com', '-369815835', 'Jakarta Barat', 'Sales Executive', 'Yuni', '2026-05-03 09:12:49', '2026-05-03 09:12:49');
-INSERT INTO `customers` VALUES (252, 1, 'PT Manna Berkat Solusindo', 'Iskandar@mail.com', '-369811235', 'Jakarta Timur', 'PIC Werehouse', 'Yuda', '2026-05-03 09:12:49', '2026-05-03 09:12:49');
-INSERT INTO `customers` VALUES (253, 1, 'PT Manna Berkat Solusindo', 'Iskandar@mail.com', '-369811235', 'Jakarta Barat', 'Finance', 'Nur Iskandar', '2026-05-03 09:12:49', '2026-05-03 09:12:49');
-INSERT INTO `customers` VALUES (254, 1, 'PT Swissindo Perkasa', 'swissindo@mail.com', '-478823481', 'Jakarta Selatan', 'Sales Executive', 'Nita Paradina', '2026-05-03 09:12:49', '2026-05-03 09:12:49');
-INSERT INTO `customers` VALUES (255, 1, 'PT Mizu Teknologi', 'mizu@mail.com', '-367712370', 'Depok', 'Owner', 'Harry Permadi', '2026-05-03 09:12:49', '2026-05-03 09:12:49');
-INSERT INTO `customers` VALUES (273, 2, 'PT Manna Berkat Solusindo', 'boby@mail.com', '519078165', 'Jakarta Barat', 'Staff', 'Boby', '2026-05-20 15:06:57', '2026-05-20 15:06:57');
-INSERT INTO `customers` VALUES (274, 1, 'PT. Manna Berkat Solusindo', 'finance@mannasolutions.co.id', '08174854807', 'Graha Kencana 8c, 8th Floor, Jl. Raya Perjuangan No. 88 Kebon Jeruk, Jakarta Barat, DKI Jakarta, 11530', 'Finance', 'Nur Iskandar', '2026-05-26 06:26:13', '2026-05-26 06:26:13');
 
 -- ----------------------------
 -- Table structure for delivery_order_items
@@ -120,8 +94,6 @@ CREATE TABLE `delivery_order_items`  (
 -- ----------------------------
 -- Records of delivery_order_items
 -- ----------------------------
-INSERT INTO `delivery_order_items` VALUES (101, 18, 'SW-003', 'VMware vSphere Standard', 1, NULL, '2026-05-26 06:32:38', '2026-05-26 06:32:38');
-INSERT INTO `delivery_order_items` VALUES (102, 19, 'SV-001', 'Server Installation Service', 1, NULL, '2026-05-26 06:39:02', '2026-05-26 06:39:02');
 
 -- ----------------------------
 -- Table structure for delivery_orders
@@ -157,8 +129,6 @@ CREATE TABLE `delivery_orders`  (
 -- ----------------------------
 -- Records of delivery_orders
 -- ----------------------------
-INSERT INTO `delivery_orders` VALUES (18, 1, 'DO-20260526-0001', 253, 24, NULL, NULL, '2026-05-26', NULL, 'Website Company Profile', 'Nur Iskandar', NULL, NULL, '2026-05-26 06:31:37', '2026-05-26 06:31:37', '2026-05-26');
-INSERT INTO `delivery_orders` VALUES (19, 2, 'DO-20260526-0001', 273, 25, NULL, NULL, '2026-05-26', NULL, 'Sistem ERP UMKM', 'Boby', NULL, NULL, '2026-05-26 06:39:02', '2026-05-26 06:39:02', '2026-05-26');
 
 -- ----------------------------
 -- Table structure for failed_jobs
@@ -203,10 +173,6 @@ CREATE TABLE `invoice_items`  (
 -- ----------------------------
 -- Records of invoice_items
 -- ----------------------------
-INSERT INTO `invoice_items` VALUES (180, 22, 'SW-003', 'VMware vSphere Standard', 30000000.00, 1, 30000000.00, 'License', '2026-05-25 04:16:18', '2026-05-25 04:16:18');
-INSERT INTO `invoice_items` VALUES (181, 22, 'SW-004', 'Antivirus ESET Endpoint', 4200000.00, 1, 4200000.00, 'Device', '2026-05-25 04:16:18', '2026-05-25 04:16:18');
-INSERT INTO `invoice_items` VALUES (183, 24, 'SW-003', 'VMware vSphere Standard', 30000000.00, 1, 30000000.00, 'License', '2026-05-26 06:29:22', '2026-05-26 06:29:22');
-INSERT INTO `invoice_items` VALUES (184, 25, 'SV-001', 'Server Installation Service', 30000000.00, 1, 30000000.00, 'Job', '2026-05-26 06:37:24', '2026-05-26 06:37:24');
 
 -- ----------------------------
 -- Table structure for invoices
@@ -248,9 +214,6 @@ CREATE TABLE `invoices`  (
 -- ----------------------------
 -- Records of invoices
 -- ----------------------------
-INSERT INTO `invoices` VALUES (22, 1, 'INV-20260525-0001', 250, NULL, NULL, 'SO/2026/0001', '<p>PO NOMOR 3254100</p>', '2026-06-25', 'IDR', 34200000.00, 11.00, 3762000.00, 37962000.00, 'TIGA PULUH TUJUH JUTA SEMBILAN RATUS ENAM PULUH DUA RIBU RUPIAH', NULL, NULL, NULL, '2026-05-25 04:15:36', '2026-05-25 04:16:18', '2026-05-25', 250);
-INSERT INTO `invoices` VALUES (24, 1, 'INV-20260526-0002', 253, NULL, NULL, 'SO/2026/0002', '<p><br></p>', '2026-06-26', 'IDR', 30000000.00, 11.00, 3300000.00, 33300000.00, 'TIGA PULUH TIGA JUTA TIGA RATUS RIBU RUPIAH', NULL, NULL, NULL, '2026-05-26 06:29:22', '2026-05-26 06:29:22', '2026-05-26', 253);
-INSERT INTO `invoices` VALUES (25, 2, 'INV-20260526-0001', 273, NULL, NULL, 'SO/2026/0001', '<p><br></p>', '2026-06-26', 'IDR', 30000000.00, 11.00, 3300000.00, 33300000.00, 'TIGA PULUH TIGA JUTA TIGA RATUS RIBU RUPIAH', NULL, NULL, NULL, '2026-05-26 06:37:24', '2026-05-26 06:37:24', '2026-05-26', 273);
 
 -- ----------------------------
 -- Table structure for items
@@ -274,12 +237,6 @@ CREATE TABLE `items`  (
 -- ----------------------------
 -- Records of items
 -- ----------------------------
-INSERT INTO `items` VALUES (49, 1, 'SW-003', 'VMware vSphere Standard', 'License', 0.00, 'Software', '2026-05-03 08:25:58', '2026-05-03 08:25:58');
-INSERT INTO `items` VALUES (50, 1, 'SW-004', 'Antivirus ESET Endpoint', 'Device', 0.00, 'Software', '2026-05-03 08:25:58', '2026-05-03 08:25:58');
-INSERT INTO `items` VALUES (52, 1, 'SV-001', 'Server Installation Service', 'Job', 0.00, 'Service', '2026-05-03 08:25:58', '2026-05-03 08:25:58');
-INSERT INTO `items` VALUES (53, 1, 'SV-002', 'Network Setup Service', 'Job', 0.00, 'Service', '2026-05-03 08:25:58', '2026-05-03 08:25:58');
-INSERT INTO `items` VALUES (54, 1, 'SV-003', 'IT Maintenance Monthly', 'Month', 0.00, 'Service', '2026-05-03 08:25:58', '2026-05-03 08:25:58');
-INSERT INTO `items` VALUES (63, 2, 'SV-001', 'Server Installation Service', 'Job', 0.00, 'Service', '2026-05-20 15:40:38', '2026-05-20 15:40:38');
 
 -- ----------------------------
 -- Table structure for job_batches
@@ -332,12 +289,11 @@ CREATE TABLE `migrations`  (
   `migration` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `batch` int NOT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 15 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = DYNAMIC;
+) ENGINE = InnoDB AUTO_INCREMENT = 14 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of migrations
 -- ----------------------------
-INSERT INTO `migrations` VALUES (14, '2026_05_19_000001_create_tenants_table', 99);
 
 -- ----------------------------
 -- Table structure for password_reset_tokens
@@ -365,19 +321,11 @@ CREATE TABLE `positions`  (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 45 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = DYNAMIC;
+) ENGINE = InnoDB AUTO_INCREMENT = 44 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of positions
 -- ----------------------------
-INSERT INTO `positions` VALUES (35, 1, 'Staff', '2026-05-03 08:16:15', '2026-05-03 08:16:15');
-INSERT INTO `positions` VALUES (36, 1, 'Admin', '2026-05-03 08:16:15', '2026-05-03 08:16:15');
-INSERT INTO `positions` VALUES (37, 1, 'Finance', '2026-05-03 08:16:15', '2026-05-03 08:16:15');
-INSERT INTO `positions` VALUES (38, 1, 'HRD', '2026-05-03 08:16:15', '2026-05-03 08:16:15');
-INSERT INTO `positions` VALUES (39, 1, 'Sales Executive', '2026-05-03 08:16:15', '2026-05-03 08:16:15');
-INSERT INTO `positions` VALUES (41, 1, 'Owner', '2026-05-03 08:16:26', '2026-05-03 08:16:36');
-INSERT INTO `positions` VALUES (43, 1, 'PIC Werehouse', '2026-05-03 08:35:04', '2026-05-03 08:35:04');
-INSERT INTO `positions` VALUES (44, 2, 'Staff', '2026-05-20 11:50:34', '2026-05-20 11:50:34');
 
 -- ----------------------------
 -- Table structure for projects
@@ -399,10 +347,6 @@ CREATE TABLE `projects`  (
 -- ----------------------------
 -- Records of projects
 -- ----------------------------
-INSERT INTO `projects` VALUES (2, 1, 'PRJ001', 'Sistem ERP Perusahaan', '2026-05-03 08:19:29', '2026-05-03 08:19:29');
-INSERT INTO `projects` VALUES (3, 1, 'PRJ002', 'Website Company Profile', '2026-05-03 08:19:29', '2026-05-03 08:19:29');
-INSERT INTO `projects` VALUES (4, 1, 'PRJ003', 'Aplikasi Inventory Gudang', '2026-05-03 08:19:29', '2026-05-03 08:19:29');
-INSERT INTO `projects` VALUES (18, 2, 'PRJ001', 'Sistem ERP UMKM', '2026-05-20 15:36:46', '2026-05-20 15:37:54');
 
 -- ----------------------------
 -- Table structure for quotation_items
@@ -430,10 +374,6 @@ CREATE TABLE `quotation_items`  (
 -- ----------------------------
 -- Records of quotation_items
 -- ----------------------------
-INSERT INTO `quotation_items` VALUES (159, 24, 'Hardware', 'HW-001', 'HPE ProLiant DL380 Gen12 Server', 1, 'Unit', 3000000.00, 3000000.00, 0, 3000000.00, '2026-05-03 13:33:58', '2026-05-03 13:33:58');
-INSERT INTO `quotation_items` VALUES (160, 24, 'Hardware', 'HW-004', 'Mikrotik CCR1009 Router', 1, 'Unit', 3000000.00, 3000000.00, 0, 3000000.00, '2026-05-03 13:33:58', '2026-05-03 13:33:58');
-INSERT INTO `quotation_items` VALUES (171, 27, 'Service', 'SV-001', 'Server Installation Service', 20, 'Job', 100000.00, 2000000.00, 0, 2000000.00, '2026-05-20 15:55:01', '2026-05-20 15:55:01');
-INSERT INTO `quotation_items` VALUES (173, 28, 'Service', 'SV-001', 'Server Installation Service', 20, 'Job', 100000.00, 2000000.00, 0, 2000000.00, '2026-05-20 15:55:16', '2026-05-20 15:55:16');
 
 -- ----------------------------
 -- Table structure for quotations
@@ -466,9 +406,6 @@ CREATE TABLE `quotations`  (
 -- ----------------------------
 -- Records of quotations
 -- ----------------------------
-INSERT INTO `quotations` VALUES (24, 1, 'QT-20260520-0001', 250, '2026-05-31', 'Aplikasi Inventory Gudang', NULL, 6000000.00, 10.00, 600000.00, 6600000.00, '<p><strong>Terms &amp; Conditions</strong></p><ol><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>Validitas:</strong> Penawaran berlaku selama 14 hari.</li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>Pembayaran:</strong> DP 50% di awal, pelunasan 50% setelah pekerjaan selesai.</li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>Pengerjaan:</strong> Dimulai segera setelah konfirmasi/DP diterima.</li></ol><p><br></p><p><strong>Remark</strong></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Harga sudah termasuk biaya kirim.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Garansi pengerjaan/barang selama 30 hari.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Terima kasih atas kepercayaan Anda.</li></ol>', '2026-05-03 09:45:27', '2026-05-03 13:33:58', '2026-05-20');
-INSERT INTO `quotations` VALUES (27, 2, 'QT-20260520-0001', 273, '2026-05-31', 'Sistem ERP UMKM', NULL, 2000000.00, 11.00, 220000.00, 2220000.00, '<p><br></p>', '2026-05-20 15:42:55', '2026-05-20 15:55:01', '2026-05-20');
-INSERT INTO `quotations` VALUES (28, 2, 'QT-20260520-0002', 273, '2026-05-31', 'Sistem ERP UMKM', NULL, 2000000.00, 11.00, 220000.00, 2220000.00, '<p><br></p>', '2026-05-20 15:55:13', '2026-05-20 15:55:16', '2026-05-20');
 
 -- ----------------------------
 -- Table structure for sessions
@@ -489,7 +426,6 @@ CREATE TABLE `sessions`  (
 -- ----------------------------
 -- Records of sessions
 -- ----------------------------
-INSERT INTO `sessions` VALUES ('1COoRrmfBcwPJLC6cmJ4AgUn4nzHee6UNrDbpg0d', 5, '103.144.169.222', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36', 'YTo0OntzOjY6Il90b2tlbiI7czo0MDoiSmZJM0oxWmJTQnA4dzJDWnhIWVRFa1hFR3M4d1lHd3lqTHlWWlNHMSI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6Mjp7czozOiJ1cmwiO3M6Mzg6Imh0dHBzOi8vaW52b2ljZS5ncmFmaXNtZWRpYXdlYnNpdGUuY29tIjtzOjU6InJvdXRlIjtOO31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aTo1O30=', 1780389501);
 
 -- ----------------------------
 -- Table structure for template_pdfs
