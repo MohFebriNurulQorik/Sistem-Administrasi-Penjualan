@@ -1,0 +1,39 @@
+<x-app-layout>
+    <x-slot name="header">Edit User</x-slot>
+
+    <div class="bg-white p-6 rounded-2xl border">
+@if ($errors->any())
+                <div class="mb-4 p-3 bg-red-50 text-red-600 rounded">
+                    @foreach ($errors->all() as $error)
+                        <div>{{ $error }}</div>
+                    @endforeach
+                </div>
+            @endif
+        <form action="{{ route('users.update', $user) }}" method="POST" class="space-y-4">
+            @csrf
+            @method('PUT')
+
+            <input type="text" name="name" value="{{ $user->name }}"
+                   class="w-full border p-3 rounded-xl">
+            <input type="text" name="company_name" value="{{ $user->company_name }}"
+                   class="w-full border p-3 rounded-xl">
+
+            <input type="email" name="email" value="{{ $user->email }}"
+                   class="w-full border p-3 rounded-xl">
+
+            <input type="password" name="password" placeholder="Kosongkan jika tidak diubah"
+                   class="w-full border p-3 rounded-xl">
+
+            <select name="role" class="w-full border p-3 rounded-xl">
+                <option value="admin" @selected($user->role=='admin')>Admin</option>
+                <option value="sales" @selected($user->role=='sales')>Sales</option>
+                <option value="finance" @selected($user->role=='finance')>Finance</option>
+            </select>
+
+            <button class="bg-blue-600 text-white px-6 py-3 rounded-xl">
+                Update
+            </button>
+        </form>
+
+    </div>
+</x-app-layout>

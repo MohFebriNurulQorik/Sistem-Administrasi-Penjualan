@@ -1,0 +1,3 @@
+/opt/alt/php82/usr/bin/php artisan config:clear
+/opt/alt/php82/usr/bin/php artisan route:clear
+/opt/alt/php82/usr/bin/php artisan cache:clear
